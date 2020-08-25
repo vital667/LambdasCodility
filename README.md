@@ -1,0 +1,2 @@
+# LambdasCodility
+Tasks from Codility
