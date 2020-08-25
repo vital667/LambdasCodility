@@ -1,6 +1,5 @@
 package codility2;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -13,12 +12,7 @@ public class Main {
 
         System.out.println("Minimum coins to swap: " + Solution.solution2(A));
 
-       // Integer []B=(Integer[A.length]A);
-
         List<Integer> list= Arrays.stream(A).boxed().collect(Collectors.toList());
         System.out.println("Minimum coins to swap: " + Solution.solution3(list));
-
-
-
     }
 }
